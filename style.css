@@ -1,6 +1,15 @@
+/*ini adalah style jumbotron*/
 .jumbotron {
-  padding-top: 6rem;
+  padding-top: 5rem;
   background-color: #e2edff;
+}
+
+/*ini adalah style slider*/
+.carousel-item {
+  height: 670px;
+}
+.carousel-item img {
+  margin-top: -120px;
 }
 
 #projects {

@@ -1,8 +1,7 @@
 /*ini adalah style jumbotron*/
 .jumbotron {
-  background-size: cover;
-  height: 640px;
-  margin-top: -75px;
+  padding-top: 5rem;
+  background-color: #e2edff;
 }
 
 /* Navbar */

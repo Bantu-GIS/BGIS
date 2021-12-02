@@ -1,24 +1,7 @@
-/*ini adalah style jumbotron*/
+/*in/*ini adalah style jumbotron*/
 .jumbotron {
   padding-top: 5rem;
   background-color: #e2edff;
-}
-
-/* Navbar */
-@media(min-width: 992px) {
-  .nav-link {
-    text-transform: uppercase;
-    margin-right: 30px;
-}
-
-.nav-link:hover::after{
-  content: '';
-  display: block;
-  border-bottom: 3px solid rgb(1, 25, 243);
-  width: 50%;
-  margin: auto;
-  padding-bottom: 5px;
-  margin-bottom: -8px;
 }
 
 /*ini adalah style slider*/
@@ -47,7 +30,7 @@ section {
 }
 
 .keyboard-box::before {
-  content: "TENTANG";
+  content: "MY";
   position: absolute;
   color: #fff;
   font-size: 6em;
@@ -65,7 +48,7 @@ section {
 }
 
 .keyboard-box::after {
-  content: "UMKM";
+  content: "ABOUT";
   position: absolute;
   color: #fff;
   font-size: 4.3em;
@@ -126,4 +109,13 @@ section {
 
 .keyboard-box:hover .keyboard-img {
   transform: translate3d(-50%, -52%, 100px) rotate(5deg) scale(1.2);
+}
+.nav-link:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid rgb(1, 25, 243);
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
 }

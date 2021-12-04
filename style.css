@@ -1,6 +1,7 @@
 /*in/*ini adalah style jumbotron*/
+@import url("http://fonts.googleapis.com/css?family=Viga");
 .jumbotron {
-  padding-top: 5rem;
+  padding-top: 10rem;
   background-color: #e2edff;
 }
 /* edit */
@@ -49,6 +50,7 @@ section {
   font-size: 6em;
   font-weight: bold;
   font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   top: 30px;
   left: 50%;
   transform: translate(-50%, 0);
